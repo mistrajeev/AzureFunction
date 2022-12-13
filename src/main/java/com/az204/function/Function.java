@@ -21,7 +21,7 @@ public class Function {
      * 2. curl "{your host}/api/HttpExample?name=HTTP%20Query"
      */
     @FunctionName("HttpExample")
-    public HttpResponseMessage run(
+    public HttpResponseMessage runTest(
             @HttpTrigger(
                 name = "req",
                 methods = {HttpMethod.GET, HttpMethod.POST},
